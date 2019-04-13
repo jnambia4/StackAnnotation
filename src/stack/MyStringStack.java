@@ -50,4 +50,8 @@ public class MyStringStack {
     public void clear() {
         v = new Vector<String> ();
     }
+
+	public static void main(String[] args) {
+		System.out.println("hello");
+	}
 }
