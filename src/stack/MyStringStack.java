@@ -21,9 +21,8 @@ public class MyStringStack {
     private Vector<String> v = new Vector<String> ();
     
     public void push (String newElement) {
-        if (newElement != null) System.out.println("jits here");
-        	/*Jits       
-        v.add (newElement);*/
+        if (newElement != null) 
+        	v.add (newElement);
     }
 
 /**
